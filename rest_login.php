@@ -50,7 +50,7 @@ $login_parameters = array(
      ),
      "application_name"=>"ArchiveEmail",
      "name_value_list"=>array(),
-)
+);
 function get_email_address($input){
         $input = explode('&lt;', $input);
         $output = str_replace('&gt;', '', $input);

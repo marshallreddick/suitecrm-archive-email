@@ -1,7 +1,8 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-require_once('./rest_login.php');
+//require_once('./rest_login.php');
+require_once('./rest_login.local.php');
 
 $file = file_get_contents($_GET['f']);
 //echo $file;
